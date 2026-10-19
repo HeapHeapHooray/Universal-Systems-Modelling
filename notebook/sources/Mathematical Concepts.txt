@@ -1,0 +1,26 @@
+Phase Space/State Space: Set of coordinate tuples that represents the state of a system, each tuple holds scalars (and only scalars) that represents values for the variables of a system's state.
+Coordinate Tuple: Tuples but for scalars, commonly used to describe a system's state. A system of N particles with position and velocity in R^3 space can be described by the following coordinate tuple: [p1,p2...p3N,v1,v2...v3N] part of R^(6N).
+State Vector: The current Coordinate Tuple of the Phase Space.
+Phase State Velocity: Multivariable Derivative that represents the rate of change of each variable.
+Intermedtate Jacobian: A Multivariable Derivative of a function F with regards to something specific, like on a function of F.
+Null Space: for an Intermeditate Jacobian[G(F(x))] from F(x), the null space is the subspace of directions that do not change G(F(x)).
+Level Set: Geography Contour Lines
+Eigendecomposition of Intermediate Jacobian's Null Space: A way of sorting the derivatives based on their eigenvalues, i.e. how much it changes the eigenvectors (since it's a null space, we are only dealing with eigenvectors, i.e. the attributes of the data that do not change "meaning" or whatever is associated with the null space).
+Latent Space: Assimilated information space from space A, that is used by a function F to convert it's points to space B.
+Discrete Jumps: Discontinuities, Piecewise separations where the two ends don't pertain to the same thing.
+Vector Field: Like those visualizations of wind and weather change, arrows usually used to describe flow.
+Invariant transform: A metaphor. Changing things from one domain to another, without changing the essential structure/meaning/property.
+Lie Groups: Represent continuous symmetries, you can smoothly rotate a circle and it's always symmetric (SO(2) Lie group), different from an equilateral triangle, whose rotational symmetries are discrete
+Geodesic: generalization of Straight lines to curved spaces, resistance free paths.
+Attractor: Regions in Phase Space to which the system gradually evolves over time.
+Basin of Attraction: Starting conditions that makes a system end up at an attractor.
+Strange Attractor: Region of Phase Space where the dynamic system loops endlessly and unpredictably, never crossing it's own path.
+Bifurcations: Tipping points of a system with regards to a continuous change. Like increasing temperature of water past boiling point.
+Bounded Phase Space: If one of the variables is limited from moving to all sides past certain distance, it is partially bounded, if all of them, it is bounded. Like a phase space of a ball with position, if the ball is locked inside a box, it's position is bounded.
+Half-Bounded: Only bounded on one side.
+Compact Obstacle: Local boundary.
+Interval: Like a segment of line, or a contiguous part of R^1
+Explicit Latent Coordinate: When a variable in phase space also represents a coordinate in a latent space Z.
+Composite State: When something is not defined by a singular component, but by multiple of them.
+Homomorphism: Structure-preserving mapping between two categories. Two states of the same system, like an alligator and the alligator after turning their body can be thought as homomorphisms.
+Interface: A gateway of interaction with a system. A static system like a fabric/towel can be turned into a dynamic system by composing that static system with an interface to the outside environment, where the physical state of the towel is parameterized by elements of the interface.

@@ -1,0 +1,2 @@
+The Universal 5-Part Descriptive Protocol, a mental model created by Gemini for describing any system formally and accurately, using spoken words in real-time:
+The system is an [Arena / Boundary] parameterized by [State Vector coordinates]. It evolves along [Dynamics / Vector Field] subject to [Invariants / Constraints], converging toward [Attractor / Equilibrium] unless altered by a [Bifurcation threshold].
